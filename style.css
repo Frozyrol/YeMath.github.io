@@ -1,0 +1,99 @@
+@media screen and (orientation: portrait){
+    body { 
+    background-color: rgb(0, 0, 0);
+}
+header{
+    display: flex;
+    height: 38px;
+    align-items: center;
+    justify-content: center
+}
+#spliter{
+    background-color: yellow;
+    height: 1px;
+    animation: expand 2s forwards;    
+    width:0;
+    margin-top: 4%;
+}
+p { 
+    color: white;
+    font-family: Helvetica;
+    justify-content: center;
+    margin: 7% 0 0 2%;
+    font-size: 16px;
+    font-weight: 600;
+}
+@keyframes expand {
+    100%{
+        width: 100%;
+    }
+}
+#scrolldown{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+}
+@keyframes shake {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(5px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+#scrolldown{
+    animation: shake 2s ease-in-out infinite;
+    margin-bottom: 10%;
+}
+#test{
+    display: flex;
+    justify-content: center;
+    height: auto ;
+    margin: 5% 0 8% 0 ;
+}
+#name { 
+    font-size: 36px;
+    color: yellow;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+#main1{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    margin: 4% 9% 2% 8%;
+
+    
+
+}
+a{
+    margin-top: 4%;
+    width: 35%;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Helvetica;
+    border-radius: 50px;
+    background-color: yellow;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer{
+    background-color: white;
+}
+#logofoot{
+    width: 50px;
+
+}
+
+#seporate{
+    height: 2px;
+    background-color: yellow;
+    margin: 5% 0 0 0;
+}
+}
